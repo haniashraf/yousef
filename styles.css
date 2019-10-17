@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+body {
+	margin: 0;
+	background-color: whitesmoke;
+}
+
+header {
+	height: 100vh;
+	background-image: url('logo.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+	opacity: 1;
+}
+
+.opening-text {
+	color: white;
+	padding-top: 300px;
+	text-align: center;
+}
+.opening-text h1 {
+	font-size: 4rem;
+	font-family: 'Modak', cursive;
+}
+.opening-text h2 {
+	font-size: 1.5rem;
+	font-family: cursive;
+}
+
+.services {
+	text-align: center;
+}
+.services h2 {
+	font-size: 1.8rem;
+	font-family: inherit;
+}
+.service-box {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.services-info {
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 2px solid black;
+	margin-top: 20px;
+}
+
+.services-info h3 {
+	font-size: 1.5rem;
+	font-family: monospace;
+}
+
+.dark-mode {
+	background-color: gray;
+}
+.information h1 {
+	font-size: 2rem;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+}
+.information h2 {
+	font-size: 1.9rem;
+	font-family: initial;
+}
+.information {
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+.information p {
+	padding-left: 40px;
+	font-size: 1.4rem;
+}
+.recommends h1 {
+	text-align: center;
+	font-size: 2rem;
+}
+.divider {
+	font-size: 1.2rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	text-align: center;
+}
+
+.our-team img {
+	width: 300px;
+	height: auto;
+	margin-left: 50px;
+}
+
+.darker-mode {
+	background-color: black;
+	color: whitesmoke;
+}
+
+.team {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-bottom: 50px;
+}
+
+.our-team h1 {
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 20px;
+}
+
+.our-team p {
+	margin-left: -300px;
+	padding-top: 0px;
+	font-size: 1.6rem;
+	color: whitesmoke;
+	margin-right: 10px;
+}
+
+footer {
+	text-align: center;
+}
